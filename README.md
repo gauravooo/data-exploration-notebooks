@@ -26,3 +26,13 @@ This repository contains an end-to-end Exploratory Data Analysis (EDA) on the Am
    `pip install pandas numpy matplotlib seaborn`
 3. Download the `train.csv` file from the [Kaggle House Prices Competition](https://www.kaggle.com/competitions/house-prices-advanced-regression-techniques/data) and place it in the project root.
 4. Open and run `house_prices_eda.ipynb` in Jupyter Notebook or VS Code.
+
+## Month 1: Data Exploration & Preprocessing
+This repository contains my end-to-end data preparation pipeline for the Ames Housing Dataset. 
+
+**Core Competencies Demonstrated:**
+* **Data Cleaning & Manipulation:** Handled missing values (`NaN`), applied median imputations, and utilized advanced Pandas logic for data extraction.
+* **Statistical Proofing:** Implemented Independent T-Tests (SciPy) to mathematically prove feature significance (Signal vs. Noise) using P-Values.
+* **Feature Scaling:** Applied `StandardScaler` (Z-Score) for normal distributions and `MinMaxScaler` to normalize strict numerical boundaries for distance-based algorithms.
+* **Feature Engineering:** Mathematically combined existing columns to create highly predictive signals (e.g., `Total_Home_SF`, `House_Age_At_Sale`).
+* **Data Leakage Prevention:** Architected rigorous Train/Test splits using `scikit-learn` to isolate validation data and prevent model overfitting.
